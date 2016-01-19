@@ -2,15 +2,17 @@
 a simple attempt at a ticker scroller
  
 Usage:
-
+<PRE>
 $('#container').ticker({
   selectorClass:class_name,
   elems:number_elements,
   speed:animation_speed
 });
+</PRE>
 
 Example:
 HTML
+<PRE>
 <div id="eq_ticker">
     <span class="ticker_item">aaaaaa</span>
     <span class="ticker_item">bbbbbb</span>
@@ -20,8 +22,10 @@ HTML
     <span class="ticker_item hidden">eeeeee</span>
     <span class="ticker_item hidden">ffffff</span>
 </div>
+</PRE>
 
 CSS
+<PRE>
 #eq_ticker {
     background-color: #888888;
     width: 100%;
@@ -34,8 +38,10 @@ CSS
 .hidden {
     display: none;
 }
+</PRE>
 
 JS
+<PRE>
 var els = 4; //number elements to display at the time
 var spd = 2000; //speed in ms for animation
 $('#eq_ticker').ticker({
@@ -43,5 +49,6 @@ $('#eq_ticker').ticker({
     elems: els,
     speed: spd
 });
+</PRE>
 
 demo: https://jsfiddle.net/marioanticoli/sg53kme1/3/#&togetherjs=OFgpNhFtAR
