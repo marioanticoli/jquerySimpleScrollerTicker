@@ -10,10 +10,9 @@ $('#container').ticker({
 });
 </PRE>
 
-Example:
+Example:<br>
 HTML
-<PRE>
-<div id="eq_ticker">
+```<div id="eq_ticker">
     <span class="ticker_item">aaaaaa</span>
     <span class="ticker_item">bbbbbb</span>
     <span class="ticker_item">cccccc</span>
@@ -22,8 +21,7 @@ HTML
     <span class="ticker_item hidden">eeeeee</span>
     <span class="ticker_item hidden">ffffff</span>
 </div>
-</PRE>
-
+```
 CSS
 <PRE>
 #eq_ticker {
