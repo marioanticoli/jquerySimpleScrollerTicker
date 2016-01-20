@@ -10,4 +10,4 @@ $('#container').ticker({
 });
 </PRE>
 
-For example: https://jsfiddle.net/marioanticoli/sg53kme1/3/#&togetherjs=OFgpNhFtAR
+For example: http://jsfiddle.net/marioanticoli/sg53kme1/
